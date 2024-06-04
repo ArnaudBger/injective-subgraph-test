@@ -1,4 +1,6 @@
-type USDTExchangeVolume @entity {
+type Transfer @entity {
   id: ID!
-  amount: String!
+  recipient: String!
+  sender: String!
+  totalAmount: String!
 }
